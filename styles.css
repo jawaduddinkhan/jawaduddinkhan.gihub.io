@@ -52,9 +52,9 @@ body {
     font-kerning: normal;
     -moz-font-feature-settings: "kern", "liga", "clig", "calt";
     font-feature-settings: "kern", "liga", "clig", "calt";
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -71,10 +71,10 @@ img {
     text-align: center;
 } */
 
-#text_tilt {
+/* h1 {
 
     transform: skewY(-10deg);
-}
+} */
 
 .name {
     top: 27%;
@@ -89,6 +89,8 @@ img {
     margin: auto;
     border-radius: 50%;
     height: auto;
+    transform: skewY(-10deg);
+
 
 }
 
@@ -217,7 +219,7 @@ a:hover {
     max-width: 40rem;
     padding: 1.5rem 1.5rem;
     text-align: center;
-    flex-direction: row;
+
 
 
 }
@@ -276,11 +278,4 @@ a:hover {
     100% {
         left: 0;
     }
-}
-
-.right_align {
-    display: flex;
-    justify-content: right;
-
-
 }
