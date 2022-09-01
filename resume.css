@@ -1,0 +1,128 @@
+html {
+    font: 'Merriweather', 'Georgia', serif;
+}
+
+.page {
+    outline: none;
+
+}
+
+body {
+    color: hsla(0, 0%, 0%, 0.9);
+    font-family: 'Merriweather', 'Georgia', serif;
+    font-weight: 400;
+    word-wrap: break-word;
+    font-kerning: normal;
+    -moz-font-feature-settings: "kern", "liga", "clig", "calt";
+    font-feature-settings: "kern", "liga", "clig", "calt";
+}
+
+.profile {
+
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 40rem;
+    padding: 1.5rem 1.5rem;
+    text-align: start;
+
+}
+
+.home {
+    width: 35%;
+    height: auto;
+}
+
+
+h2 {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    margin-bottom: 1.75rem;
+    color: inherit;
+    font-family: 'Merriweather', 'Georgia', serif;
+    font-weight: 900;
+    text-rendering: optimizeLegibility;
+    font-size: 1.73286rem;
+    line-height: 1.1;
+}
+
+h1 {
+
+    margin-bottom: 1.75rem;
+    font-family: Montserrat, sans-serif;
+    font-weight: 900;
+    text-rendering: optimizeLegibility;
+    font-size: 2.5rem;
+    line-height: 1.1;
+    font-weight: bold;
+}
+
+.gap {
+    margin-bottom: 1.3rem;
+    margin-top: 3.5rem;
+}
+
+.gapline {
+    margin-bottom: 1.3rem;
+}
+
+hr {
+    /* background: white;
+    background-color: white; */
+    /* background-repeat: repeat; */
+    color: rgb(194, 191, 191);
+}
+
+p {
+    margin-bottom: 1.75rem;
+}
+
+h3 {
+    margin-top: 1.3rem;
+    margin-bottom: 0px;
+    color: inherit;
+    font-family: 'Merriweather', 'Georgia', serif;
+    font-weight: 900;
+    text-rendering: optimizeLegibility;
+    font-size: 1.4427rem;
+    line-height: 1.1;
+}
+
+.company {
+    font-weight: bold;
+}
+
+.time {
+    font-style: italic;
+    padding-left: 10px;
+    color: rgb(159, 156, 156);
+}
+
+footer {
+    top: auto;
+    left: 50%;
+    color: black;
+    margin-top: 3rem;
+    display: flex;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+    position: absolute;
+    min-width: none;
+
+}
+
+a {
+    color: #207ab7;
+}
+
+a:hover {
+    box-shadow: none;
+    text-decoration: none;
+}
