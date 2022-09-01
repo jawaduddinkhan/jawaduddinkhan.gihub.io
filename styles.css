@@ -12,7 +12,6 @@ html {
 
 #text-shadow {
     font-size: 3.5rem;
-    /* background-color: rgb(6, 6, 64); */
     background-color: white;
     color: rgb(184, 182, 182);
     text-shadow:
@@ -51,9 +50,6 @@ body {
     font-kerning: normal;
     -moz-font-feature-settings: "kern", "liga", "clig", "calt";
     font-feature-settings: "kern", "liga", "clig", "calt";
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
 
 }
 
